@@ -45,8 +45,7 @@ body,
 input,
 button,
 textarea {
-  /* font-family: 'Archivo', sans-serif;
-    font-family: 'Poppins', sans-serif; */
+  color: var(--color-text-base);
   font: 500 1.6rem Poppins;
 }
 .container{
