@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/web/src/assets/images/logo.svg" />
+  <img src="/web/src/assets/images/logo.png" />
   
   <p align="center">
   App to ReactJS, React Native, Node.js and more.
