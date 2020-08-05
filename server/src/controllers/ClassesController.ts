@@ -11,7 +11,6 @@ interface ScheduleItem {
 export default class ClassesController {
     async index(request: Request, response: Response){
         const filters = request.query;
-        console.log('inde')
         const subject = filters.subject as string
         const week_day = filters.week_day as string
         const time = filters.time as string
