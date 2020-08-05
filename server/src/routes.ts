@@ -12,6 +12,8 @@ routes.post("/classes", classesController.create);
 
 routes.get("/classes", classesController.index);
 
+routes.get("/proffys", classesController.list);
+
 routes.post("/connections", connectionController.create);
 
 routes.get("/connections", connectionController.index);

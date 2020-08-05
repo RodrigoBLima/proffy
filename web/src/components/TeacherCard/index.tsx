@@ -1,9 +1,7 @@
 import React from "react";
 import whastappIcon from "../../assets/images/icons/whatsapp.svg";
-
-import "./styles.css";
-import { createConnection } from "net";
 import api from "../../services/api";
+import "./styles.css";
 
 export interface Teacher {
   avatar: string;

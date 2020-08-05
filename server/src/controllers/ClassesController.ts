@@ -9,6 +9,13 @@ interface ScheduleItem {
 }
 
 export default class ClassesController {
+    async list(request: Request, response: Response){ 
+      const proffys = await db('classes').select('*')
+      .join('users', 'classes.user_id', '=', 'users.id')
+      
+      return response.json(proffys)  
+    }
+
     async index(request: Request, response: Response){
         const filters = request.query;
         const subject = filters.subject as string

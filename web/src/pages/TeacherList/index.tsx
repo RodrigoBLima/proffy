@@ -1,15 +1,13 @@
 import React, { useEffect, useState, FormEvent } from "react";
 import PageHeader from "../../components/PageHeader";
-import TeacherCard, {Teacher} from "../../components/TeacherCard";
+import TeacherCard, { Teacher } from "../../components/TeacherCard";
 import Input from "../../components/Inputs";
 
 import "./styles.css";
 import SelectBox from "../../components/SelectBox";
 import api from "../../services/api";
 
-
 export default function TeacherList() {
-
   const [subject, setSubject] = useState("");
   const [week_day, setWeekDay] = useState("");
   const [time, setTime] = useState("");
@@ -18,22 +16,26 @@ export default function TeacherList() {
 
   async function searchTeachers(e: FormEvent) {
     e.preventDefault();
-
-    const response = await api.get("/classes", {
-      params: {
-        week_day,
-        subject,
-        time,
-      },
-    });
-    setTeachers(response.data);
+    try {
+      const response = await api.get("/classes", {
+        params: {
+          week_day,
+          subject,
+          time,
+        },
+      });
+      setTeachers(response.data);
+    } catch (error) {
+      alert(error);
+    }
   }
 
   useEffect(() => {
-    api.get("/classes").then((res) => {
+    api.get("proffys").then((res) => {
+      console.log(res.data);
       setTeachers(res.data);
     });
-  }, [teachers]);
+  }, []);
 
   return (
     <div id="page-teacher-list" className="container">
@@ -81,8 +83,8 @@ export default function TeacherList() {
         </form>
       </PageHeader>
       <main>
-        {teachers.map((teacher:Teacher) => {
-         return  <TeacherCard key={teacher.id} teacher={teacher} />;
+        {teachers.map((teacher: Teacher) => {
+          return <TeacherCard key={teacher.id} teacher={teacher} />;
         })}
       </main>
     </div>
