@@ -16,12 +16,13 @@ export default function App() {
   const { navigate } = useNavigation();
 
   function handleNavigatetoGiveClassesPage() {
-    navigate("GiveClasses");
+    navigate('GiveClasses');
   }
 
   function handleNavigatetoStudyPages() {
     navigate("Study");
   }
+  
   return (
     <View style={styles.container}>
       <Image source={landingImg} style={styles.banner}></Image>
