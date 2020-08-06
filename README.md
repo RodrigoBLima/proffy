@@ -1,9 +1,23 @@
 <p align="center">
   <img src="/web/src/assets/images/logo.png" />
   
+
   <p align="center">
-  App to ReactJS, React Native, Node.js and more.
+        App to ReactJS, React Native, TypeScript Node.js and more. 🚀
   </p>
+
+
+<div align="center">  
+    
+  [![License][license-badge]][license-url]
+  ![Git Stars][star-badge]
+  ![Last Commit][last-commit-badge]
+  [![Netfly Stats][netfly-badge]][netfly-url]
+  ![NLW Stats][nlw-badge]
+  ![Codacy Quality][codacy-badge]
+
+
+</div>
 
   <img src="/web/src/assets/images/wallppaper.png" />
 </p>
