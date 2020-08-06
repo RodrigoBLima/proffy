@@ -9,13 +9,12 @@
 
 <div align="center">  
     
-  [![License][license-badge]][license-url]
-  ![Git Stars][star-badge]
-  ![Last Commit][last-commit-badge]
-  [![Netfly Stats][netfly-badge]][netfly-url]
-  ![NLW Stats][nlw-badge]
-  ![Codacy Quality][codacy-badge]
-
+[![License][license-badge]][license-url]
+![Git Stars][star-badge]
+![Last Commit][last-commit-badge]
+[![Netfly Stats][netfly-badge]][netfly-url]
+![NLW Stats][nlw-badge]
+![Codacy Quality][codacy-badge]
 
 </div>
 
