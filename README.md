@@ -1,13 +1,11 @@
 
 <!-- VARS -->
-[license-badge]: https://img.shields.io/github/license/pmqueiroz/proffy?color=%238257E5
-[star-badge]: https://img.shields.io/github/stars/pmqueiroz/proffy?color=8257E5&logo=github
-[last-commit-badge]: https://img.shields.io/github/last-commit/pmqueiroz/proffy?color=%238257E5
-[netfly-badge]: https://img.shields.io/netlify/b4d3ee80-98f0-42d0-b3d0-13879c811a00?color=%238257E5
+[license-badge]: https://img.shields.io/github/license/RodrigoBLima/proffy?color=%238257E5
+[star-badge]: https://img.shields.io/github/stars/RodrigoBLima/proffy?color=8257E5&logo=github
+[last-commit-badge]: https://img.shields.io/github/last-commit/RodrigoBLima/proffy?color=%238257E5
 [codacy-badge]: https://app.codacy.com/project/badge/Grade/b2d32fa731984f3e9c3eaa814861c9db
-[netfly-url]: https://pmqueiroz-proffy.netlify.app
-[license-url]: https://github.com/pmqueiroz/proffy/blob/master/LICENSE
-[issues-url]: https://github.com/pmqueiroz/proffy/issues/
+[license-url]: https://github.com/RodrigoBLima/proffy/blob/master/LICENSE
+[issues-url]: https://github.com/RodrigoBLima/proffy/issues/
 [node-url]: https://nodejs.org/en
 [yarn-url]: https://classic.yarnpkg.com/
 [npm-url]:  https://www.npmjs.com/
@@ -32,7 +30,6 @@
 [![License][license-badge]][license-url]
 ![Git Stars][star-badge]
 ![Last Commit][last-commit-badge]
-[![Netfly Stats][netfly-badge]][netfly-url]
 ![NLW Stats][nlw-badge]
 ![Codacy Quality][codacy-badge]
 
