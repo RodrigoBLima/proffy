@@ -1,5 +1,6 @@
 
 <!-- VARS -->
+[linkedin]: https://www.linkedin.com/in/rodrigo-barbosa-710b10180/,
 [license-badge]: https://img.shields.io/github/license/RodrigoBLima/proffy?color=%238257E5
 [star-badge]: https://img.shields.io/github/stars/RodrigoBLima/proffy?color=8257E5&logo=github
 [last-commit-badge]: https://img.shields.io/github/last-commit/RodrigoBLima/proffy?color=%238257E5
@@ -26,7 +27,8 @@
 
 
 <div align="center">  
-    
+
+![Linkedin][linkedin]
 [![License][license-badge]][license-url]
 ![Git Stars][star-badge]
 ![Last Commit][last-commit-badge]
