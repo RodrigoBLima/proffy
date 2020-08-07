@@ -12,7 +12,7 @@ export default function TeacherList() {
   const [week_day, setWeekDay] = useState("");
   const [time, setTime] = useState("");
 
-  const [teachers, setTeachers] = useState([]);
+  const [teachers, setTeachers] = useState([]) ;
 
   async function searchTeachers(e: FormEvent) {
     e.preventDefault();

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Text, View, Image } from "react-native";
 
 import { useNavigation } from "@react-navigation/native";
@@ -10,19 +10,30 @@ import studyImg from "../../assets/images/icons/study.png";
 import giveClassesImg from "../../assets/images/icons/give-classes.png";
 import heartIcon from "../../assets/images/icons/heart.png";
 
+import api from "../../services";
+
 import styles from "./styles";
 
 export default function App() {
+  const [totalConnections, setTotalConnections] = useState([]);
+
+  useEffect(() => {
+    api.get("connections").then((res) => {
+      console.log(res.data)
+      setTotalConnections(res.data.total);
+    });
+  }, []);
+
   const { navigate } = useNavigation();
 
   function handleNavigatetoGiveClassesPage() {
-    navigate('GiveClasses');
+    navigate("GiveClasses");
   }
 
   function handleNavigatetoStudyPages() {
     navigate("Study");
   }
-  
+
   return (
     <View style={styles.container}>
       <Image source={landingImg} style={styles.banner}></Image>
@@ -50,7 +61,7 @@ export default function App() {
         </RectButton>
       </View>
       <Text style={styles.totalConnections}>
-        Total de 0 conexões já realizadas ! <Image source={heartIcon} />
+        Total de {totalConnections} conexões já realizadas ! <Image source={heartIcon} />
       </Text>
     </View>
   );

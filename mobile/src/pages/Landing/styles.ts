@@ -45,15 +45,14 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 20,
   },
-  totalConnections:{
+  totalConnections: {
     color: "#d4c2ff",
-fontFamily:"Poppins_400Regular",
-fontSize:12,
-lineHeight:20,
-maxWidth:140,
-marginTop:40,
-
-  }
+    fontFamily: "Poppins_400Regular",
+    fontSize: 12,
+    lineHeight: 20,
+    maxWidth: 140,
+    marginTop: 40,
+  },
 });
 
 export default styles;
