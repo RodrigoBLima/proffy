@@ -24,10 +24,12 @@
   <p align="center">
         App to ReactJS, React Native, TypeScript Node.js and more. 🚀
   </p>
+
+<div align="center">  
+
 [![Linkedin Badge](https://img.shields.io/badge/-RodrigoBarbosa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/rodrigo-barbosa-710b10180/)][linkedin]
 
- <div align="center">  
- 
+
 [![License][license-badge]][license-url]
 ![Git Stars][star-badge]
 ![Last Commit][last-commit-badge]
@@ -37,6 +39,7 @@
 </div>
 
   <img src="/web/src/assets/images/wallppaper.png" />
+
 </p>
 
 # Development setup
