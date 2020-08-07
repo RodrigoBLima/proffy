@@ -28,7 +28,6 @@
 
 <div align="center">  
 
-![Linkedin][linkedin]
 [![License][license-badge]][license-url]
 ![Git Stars][star-badge]
 ![Last Commit][last-commit-badge]
